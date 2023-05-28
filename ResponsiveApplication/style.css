@@ -1,0 +1,164 @@
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rating-stars{
+    color:rgb(235, 191, 14);
+}
+.product-item{
+    max-width:300px;
+    margin:auto;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.footer-items{
+    color:#ccc;
+}
+.footer-items ul{
+    list-style:square;
+}
+.rupees
+{
+    color:blue;
+}
+.breadcrumb{
+    background-color:#eee;
+}
+.product-small img{
+    max-width:10rem;
+    padding:5px;
+}
+.cart-items{
+    border:1px solid black;
+}
+.order{
+    border:1px solid black;
+}
+.close i{
+    font-size: 25px;
+}
+.close i:hover{
+    color:red;
+    font-size: 25px;
+}
+.login-box
+{
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 2rem;
+}
+.success-icon{
+    font-size: 10rem;
+}
+#carouselExampleDark img{
+    max-height:100vh;
+}
+a.logo{
+    text-decoration: none;
+    color:black;
+}
+.color-label{
+    border-radius: 50% !important;
+    margin:5px;
+}
+
+.color-label i{
+    opacity: 0;
+}
+
+.btn-check:checked+.color-label i{
+    opacity: 1;
+}
+.text-small{
+    font-size: 1rem;
+}
+.accordion-body{
+    font-size: 1rem;
+    color:grey;
+}
+.accordion-button:not(.collapsed){
+    background-color: blue;
+    padding: 5px;
+    color:white;
+}
+.cart-badge{
+    position: relative;
+    top:-15px;
+    left:-10px;
+}
+
+.search-form input ,.search-form button{
+    border-radius: 0;
+}
+.nav-item:hover{
+    background-color: #ffffff33;
+}
+.dropdown-item{
+    color:white;
+    
+}
+.carousel-caption{
+    background-color: #ffffff66;
+}
+.product-item:hover{
+transform:scale(1.1);
+}
+.like,.liked{
+    z-index:10;
+    top:0rem;
+    left:1.3rem;
+    font-size: 34px;
+    color:grey;
+}
+.like:hover{ 
+  opacity: 0;
+}
+.liked:hover{
+    color:red;
+    opacity: 1;
+}
+.liked{
+    opacity: 0;
+    z-index:11;
+}
+.footer-items{
+    color:#ccc;
+}
+.footer-items ul{
+   list-style: none;
+   padding: 0;
+   font-size: 0.8rem;
+  
+}
+.footer-items a{
+    color: #ccc;
+    text-decoration: none;
+ }
+ .footer-items a:hover{
+    color: #ccc;
+    text-decoration: underline;
+ }
+ .footer-items h5{
+    color:white;
+    font-size: 1.2rem;
+ }
+ .subscribe input,.subscribe button{
+    border-radius: 0;
+
+ }
+ .social-icons i{
+    font-size: 1.5rem;
+    color:blue;
+ }
+ .social-icons button{
+    border-radius: 20px !important;
+    width:2.8rem;
+    height:2.8rem;
+    padding: 5px;
+ }
+ .social-icons i ::before{
+    vertical-align: text-top;
+    top:-0.2rem;
+    position: relative;
+ }
+ 
